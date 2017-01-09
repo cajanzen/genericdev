@@ -64,7 +64,7 @@ RUN git clone https://github.com/creationix/nvm.git /home/user/.nvm \
         bower \
         generator-angular \
         generator-karma \
-        generator-webapp
+        generator-webapp \
         grunt \ 
         grunt-cli \
         gulp \
