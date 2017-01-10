@@ -74,7 +74,7 @@ RUN git clone https://github.com/creationix/nvm.git /home/user/.nvm \
 
 # Indulge a little...
 # adapted from: https://github.com/neovim/neovim/wiki/Installing-Neovim
-sudo apt-get update \
+RUN sudo apt-get update \
     && apt-get install -y software-properties-common \
     && sudo add-apt-repository -y ppa:neovim-ppa/unstable \
     && sudo apt-get update \
